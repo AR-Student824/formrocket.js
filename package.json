@@ -1,0 +1,24 @@
+{
+  "name": "formrocket.js",
+  "version": "1.0.0",
+  "description": "A powerful NPM library made for interacting with the FormRocket API",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AR-Student824/formrocket.js.git"
+  },
+  "keywords": [],
+  "author": "arcodez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AR-Student824/formrocket.js/issues"
+  },
+  "homepage": "https://github.com/AR-Student824/formrocket.js#readme"
+}
