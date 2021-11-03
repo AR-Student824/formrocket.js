@@ -1,6 +1,6 @@
 {
   "name": "formrocket.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful NPM library made for interacting with the FormRocket API",
   "main": "index.js",
   "dependencies": {
