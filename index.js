@@ -18,5 +18,19 @@ async function GetFormData({userId, formName, formId, formSecret}) {
 	})
 }
 
+async function GetFormResponses({userId, formName, formId, formSecret}) {
+	return new Promise(resolve => {
+		GetFormData({
+			userId: userId,
+			formName: formName,
+			formId: formId,
+			formSecret: formSecret
+		}).then(data => {
+			resolve(data.data.form.responses.all)
+		})
+	})
+}
+
 exports.SendResponse = SendResponse
 exports.GetFormData = GetFormData
+exports.GetFormResponses = GetFormResponses
